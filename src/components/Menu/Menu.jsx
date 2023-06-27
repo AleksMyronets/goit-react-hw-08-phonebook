@@ -8,9 +8,9 @@ export const Menu = () => {
 
     return (
         <div>
-            <p className={css.EmailText}>{email}</p>
+            <p className={css.Email}>{email}</p>
             <button
-                className={css.UserMenuBtn}
+                className={css.MenuButton}
                 onClick={() => dispatch(logoutThunk())}
             >
                 Logout
