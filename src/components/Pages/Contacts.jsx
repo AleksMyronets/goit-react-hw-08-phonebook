@@ -1,7 +1,7 @@
-import { Contact } from '../components/Contacts';
-import { Filter } from '../components/Filter';
-import { Forma } from '../components/Forma';
-import { ContainerForm } from '../components/App.styled';
+import { Contact } from '../Contacts/Contacts';
+import { Filter } from '../Filter/Filter';
+import { Forma } from '../Forma/Forma';
+import { ContainerForm } from '../App/App.styled';
 
 const Contacts = () => {
   return (
