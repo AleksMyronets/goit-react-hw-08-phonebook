@@ -3,12 +3,12 @@ import { logoutThunk } from 'redux/sliceUser';
 import css from './Menu.module.css';
 
 export const Menu = () => {
+    const { user } = useSelector(state => state.auth);
     const dispatch = useDispatch;
-    const email = useSelector(state => state.auth.carrent.email);
 
     return (
         <div>
-            <p className={css.Email}>{email}</p>
+            <p className={css.Email}>{user}</p>
             <button
                 className={css.MenuButton}
                 onClick={() => dispatch(logoutThunk())}
