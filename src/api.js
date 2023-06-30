@@ -36,12 +36,12 @@ export const logout = async () => {
 
 
 export const getContacts = async () => {
-  const { data } = await instance.get("/contacts");
+  const { data } = await instance.get('/contacts');
   return data;
 };
 
 export const addContacts = async({name, phone}) => {
-  const { data } = await instance.add(`/contacts`);
+  const { data } = await instance.post('/contacts' ,{name, phone});
   return data;
 };
 
