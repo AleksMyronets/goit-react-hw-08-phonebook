@@ -41,7 +41,7 @@ export const getContacts = async () => {
 };
 
 export const addContacts = async({name, phone}) => {
-  const { data } = await instance.add('/contacts', {name, phone});
+  const { data } = await instance.app('/contacts', {name, phone});
   return data;
 };
 
