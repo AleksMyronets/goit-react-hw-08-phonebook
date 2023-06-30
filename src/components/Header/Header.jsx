@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Menu } from 'components/UserMenu/UserMenu';
+import { Menu } from 'components/Menu/Menu';
 import { NavLink } from 'react-router-dom';
 import { getCurrentThunk, logoutThunk } from 'redux/sliceUser';
 import { setToken } from 'api';
