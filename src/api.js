@@ -40,8 +40,8 @@ export const getContacts = async () => {
   return data;
 };
 
-export const addContacts = async post => {
-  const { data } = await instance.post("/contacts",post);
+export const addContacts = async({ name, number }) => {
+  const { data } = await instance.post("/contacts");
   return data;
 };
 
