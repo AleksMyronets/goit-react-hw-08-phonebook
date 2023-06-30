@@ -5,8 +5,8 @@
 
 .MenuButton {
     margin-left: 20px;
-    margin-top: 50px;
-    font-size: 15px;
+    padding: 15px;
+    font-size: 25px;
     border-radius: 5px;
     border: none;
     box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
