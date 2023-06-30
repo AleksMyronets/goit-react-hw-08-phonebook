@@ -18,7 +18,8 @@
     justify-content: center;
     list-style: none;
     padding-top: 10px;
-    gap: 30px;
+    gap: 50px;
     font-size: 30px;
+    padding-left: 0;
 
 }
