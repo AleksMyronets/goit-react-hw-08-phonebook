@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Menu } from 'components/UserMenu/UserMenu';
 import { NavLink } from 'react-router-dom';
 import { getCurrentThunk, logoutThunk } from 'redux/sliceUser';
-import { setToken } from 'apiUser';
+import { setToken } from 'api';
 import css from './Header.module.css';
 
 const Header = () => {
