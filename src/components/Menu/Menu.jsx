@@ -4,7 +4,7 @@ import css from './Menu.module.css';
 
 export const Menu = () => {
     const { user } = useSelector(state => state.auth);
-    const dispatch = useDispatch;
+    const dispatch = useDispatch();
 
     return (
         <div>
