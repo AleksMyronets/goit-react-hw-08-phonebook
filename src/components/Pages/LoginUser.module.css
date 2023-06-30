@@ -1,12 +1,14 @@
 .LoginForm {
     width: 400px;
     margin: auto;
+    text-align: center;
 }
 
 .LoginInput {
+    font-size: 20px;
     width: 100%;
     height: 30px;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
@@ -17,19 +19,19 @@
 
 .LoginInput:hover,
 :focus {
-    border: 1px solid #44d7ff;
+    border: 1px solid #0b5d74;
 }
 
 .LoginLabel {
-    font-size: 20px;
-
+    font-size: 30px;
 }
 
 .LoginBtn {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 30px;
+    background-color: #37f5ef;
+    font-size: 25px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
 
@@ -37,5 +39,5 @@
 }
 
 .LoginBtn:hover {
-    background-color: #e9e9e9;
+    background-color: #ec0000;
 }
