@@ -7,7 +7,7 @@ export const Menu = () => {
   const email = useSelector(state => state.auth.current.email);
   return (
     <div>
-      <p className={css.Email}>{email}</p>
+      <p className={css.Email}>Hello, {email}</p>
       <button
         className={css.MenuButton}
         onClick={() => dispatch(logoutThunk())}
