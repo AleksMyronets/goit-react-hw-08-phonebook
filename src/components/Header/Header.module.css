@@ -1,0 +1,24 @@
+.Header {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+}
+
+.HeaderLink {
+    text-decoration: none;
+    color: white;
+
+}
+
+.HeaderList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    gap: 30px;
+    font-size: 30px;
+
+}
