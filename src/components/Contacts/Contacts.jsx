@@ -5,7 +5,7 @@ import { getContactsThunk } from 'redux/sliceContact';
 import { deleteContactThunk } from 'redux/sliceContact';
 
 
-export const Contacts = () => {
+export const Contact = () => {
   const { contacts } = useSelector(state => state.contacts);
   const filterValue = useSelector(state => state.filter);
   const { isLoading } = useSelector(state => state.contacts);
