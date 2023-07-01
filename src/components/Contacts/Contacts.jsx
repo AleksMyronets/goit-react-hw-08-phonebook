@@ -32,7 +32,7 @@ export const Contact = () => {
         {visibleContacts.map(el => {
           return (
             <ContactsListEl key={el.id}>
-              {el.name} <span>{el.phone}</span>
+              {el.name} <span>{el.number}</span>
               <ContactsBtn type="button" onClick={() => deleteContact(el.id)}>
                 Delet
               </ContactsBtn>
