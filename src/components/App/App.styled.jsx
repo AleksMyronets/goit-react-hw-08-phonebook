@@ -7,7 +7,7 @@ flex-direction: column;
 -webkit-box-align: center;
 align-items: center;
 margin: 0 auto;
-margin-top: 70px;
+margin-top: 155px;
 border-radius: 15px;
 background-color: #e84df0;
 `
